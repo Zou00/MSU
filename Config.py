@@ -14,7 +14,7 @@ class Config:
 
     # 一般超参
     epoch = 20
-    learning_rate = 5e-5
+    learning_rate = 3e-5
     weight_decay = 0.01
     num_labels = 3
     loss_weight = [1.85, 5.52, 3.58]  # 基于逆频率计算的权重
